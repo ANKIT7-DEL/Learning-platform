@@ -1,0 +1,31 @@
+# Build folders
+/target/
+/backend/target/
+/frontend/dist/
+
+# Node
+/node_modules/
+/frontend/node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Do not add nested git metadata
+/backend/.git/
